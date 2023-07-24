@@ -1,0 +1,51 @@
+.sideBar{
+    width: 380px;
+    position: fixed;
+    right: -400px;
+    top: 0;
+    background-color: rgb(225, 225, 225);
+    padding: 10px 20px 30px 40px;
+    height: 100vh;
+    z-index: 100;
+    overflow-y: scroll;
+    transition: all .7s;
+    box-shadow: -7px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.sideBar.active{
+    right: 0;
+}
+.sideBarContainer{
+    width: 100%;
+}
+.sideBarHeader  , .sideBarAction{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sideBarHeader>span:nth-of-type(2){
+    cursor: pointer;
+}
+.sideBarCart{
+    width: 100%;
+}
+.productCart{
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+.productCart>img{
+    border-radius: 5px;
+    width: 100%;
+}
+.productCart>button{
+    width: 70%;
+    align-self: center;
+}

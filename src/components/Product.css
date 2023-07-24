@@ -1,0 +1,6 @@
+.ProductCard{
+    width: 30%;
+    margin-bottom: 30px;
+    background-color: rgb(217, 217, 217) !important;
+    border-radius: 10px !important;
+}

@@ -1,0 +1,9 @@
+.navbarLinks{
+    flex-direction: row  !important;
+    align-items: center;
+  
+  }
+  .nav-item{
+    margin: 0 10px;
+    cursor: pointer;
+  }
